@@ -36,23 +36,26 @@ Future You AI is an interactive web application that allows users to chat with a
 
 ## 📸 Screenshots
 
-*Add screenshots of your application here*
+_Add screenshots of your application here_
 
 ## 🛠️ Technologies Used
 
 - **Frontend**:
+
   - HTML5
   - CSS3
   - JavaScript (ES6+)
   - Web Speech API for voice recognition and synthesis
 
 - **Backend**:
+
   - Node.js
   - Express.js
   - JSON Web Tokens (JWT) for authentication
   - bcrypt.js for password hashing
 
 - **AI Integration**:
+
   - OpenAI API (GPT-3.5 Turbo)
 
 - **Database** (Optional):
@@ -61,6 +64,7 @@ Future You AI is an interactive web application that allows users to chat with a
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - [OpenAI API Key](https://platform.openai.com/)
@@ -143,10 +147,12 @@ future-you-ai/
 ### Authentication
 
 - **POST /api/auth/register** - Register a new user
+
   - Request body: `{ name, email, password }`
   - Response: `{ token, user: { id, name, email } }`
 
 - **POST /api/auth/login** - Login a user
+
   - Request body: `{ email, password }`
   - Response: `{ token, user: { id, name, email } }`
 
@@ -215,6 +221,7 @@ You can customize the AI personality by modifying the `createSystemPrompt` funct
 ### Browser Compatibility
 
 The application works best in modern browsers:
+
 - Chrome (recommended)
 - Firefox
 - Edge
@@ -237,4 +244,3 @@ This project is licensed under the ISC License.
 ---
 
 Created with ❤️ by Your Name
-
