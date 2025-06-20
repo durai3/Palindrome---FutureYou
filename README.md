@@ -142,6 +142,11 @@ future-you-ai/
 └── README.md             # Project documentation
 ```
 
+##System Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/4379e2b9-9f1c-4f9c-97d5-ea24b04f7b00)
+
+
 ## 🔌 API Endpoints
 
 ### Authentication
